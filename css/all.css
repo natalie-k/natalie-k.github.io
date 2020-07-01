@@ -39,7 +39,10 @@ a.active {
 h1 {
   font: 124px "Impact";
 }
-h2{
+h2 {
   font: 18px "Tahoma";
   font-style: italic;
+}
+p {
+  font: 16px "Tahoma";
 }
