@@ -24,11 +24,10 @@
   overflow: hidden;
   color: #000;
   top: 10%;
+  width: 100%;
   padding: 10px;
   text-align: center;
 }
 .scrolled {
   position: fixed;
-  top: 0;
-  width: 100%;
 }
