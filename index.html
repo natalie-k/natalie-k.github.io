@@ -2,22 +2,22 @@
   <head>
     <link rel="stylesheet" href="css/page1.css">
   </head>
-  <div class="cover">
-    <p class="text">Testing</p>
-  </div>
-  <div id="navbar">
-    <a href="https://natalie-k.github.io/test">Test</a>
-    <a href="https://natalie-k.github.io/another-page">Another page</a>
-  </div>
-  <p>some text</p>
-  <b>text</b><br/><br/>
-  <i>more text</i><br/><br/>
+  <center>
+    <div class="cover">
+      <p class="text">Testing</p>
+    </div>
+    <div id="navbar">
+      <a href="https://natalie-k.github.io/test">Test</a>
+      <a href="https://natalie-k.github.io/another-page">Another page</a>
+    </div>
+    <p>some text</p>
+    <b>text</b><br/><br/>
+    <i>more text</i><br/><br/>
+  </center>
   <script>
     window.onscroll = function() {myFunction()};
-
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
-
     function myFunction() {
       if (window.pageYOffset >= sticky) {
         navbar.classList.add("scrolled")
