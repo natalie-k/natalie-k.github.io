@@ -20,8 +20,12 @@
   font: 124px "Impact";
 }
 #navbar {
+  position: absolute;
   overflow: hidden;
   color: #000;
+  top: 10%;
+  padding: 10px;
+  text-align: center;
 }
 .scrolled {
   position: fixed;
