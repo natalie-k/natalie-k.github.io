@@ -36,11 +36,17 @@
       if (window.pageYOffset >= sticky) {
         navbar.classList.remove("notScrolled");
         navbar.classList.add("scrolled");
-        scroll.opacity="1"
+        var timer = setInterval(function () {
+            if (op >= 1){
+                clearInterval(timer);
+            }
+            scroll.style.opacity = op;
+            scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
+            op += op * 0.1;
+        }, 10);       
       } else {
         navbar.classList.remove("scrolled");
         navbar.classList.add("notScrolled");
-        var op = 1;  // initial opacity
         var timer = setInterval(function () {
             if (op <= 0.1){
                 clearInterval(timer);
