@@ -49,11 +49,10 @@ p {
 }
 .arrow {
   position: absolute;
-  bottom: 10px;
-  width: 30px;
-  height: 30pxd;
-  border-right: 3px solid black;
+  bottom: 20px;
+  width: 20px;
+  height: 20px;
   border-bottom: 3px solid black;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  border-right: 3px solid black;
+  transform: rotate(45deg);
 }
