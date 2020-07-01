@@ -55,9 +55,10 @@ p {
   transform: translateX(-50%);
 }
 .arrow {
-  position: absolute;
+  position: relative;
   width: 20px;
   height: 20px;
+  margin-bottom: 5px;
   border-bottom: 3px solid black;
   border-right: 3px solid black;
   transform: rotate(45deg);
