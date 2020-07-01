@@ -7,9 +7,9 @@
       <p class="text">Testing</p>
     </div>
     <div id="navbar" class="notScrolled">
-      <a id="navLink" href="https://natalie-k.github.io/">Home</a>
-      <a id="navLink" href="https://natalie-k.github.io/shop">Shop</a>
-      <a id="navLink" href="https://natalie-k.github.io/about-us">About us</a>
+      <a href="https://natalie-k.github.io/">Home</a>
+      <a href="https://natalie-k.github.io/shop">Shop</a>
+      <a href="https://natalie-k.github.io/about-us">About us</a>
     </div>
     <br/>
     <p>some text</p><br/>
@@ -23,12 +23,8 @@
     function myFunction() {
       if (window.pageYOffset >= sticky) {
         navbar.classList.add("scrolled")
-        navLink.classList.add("aScrolled")
       } else {
         navbar.classList.remove("scrolled");
-        navbar.classList.remove("aScrolled");
-        navbar.classList.add("notScrolled");
-        navLink.classList.add("aNotScrolled")
       }
     }
   </script>
