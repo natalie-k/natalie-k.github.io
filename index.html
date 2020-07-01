@@ -44,10 +44,10 @@
         var timer = setInterval(function () {
             if (op <= 0.1){
                 clearInterval(timer);
-                element.style.display = 'none';
+                scroll.style.display = 'none';
             }
-            element.style.opacity = op;
-            element.style.filter = 'alpha(opacity=' + op * 100 + ")";
+            scroll.style.opacity = op;
+            scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
             op -= op * 0.1;
         }, 50); 
       }
