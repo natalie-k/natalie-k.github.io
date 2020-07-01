@@ -21,7 +21,6 @@
 }
 #navbar {
   overflow: hidden;
-  padding: 10px;
   text-align: center;
 }
 .notScrolled {
@@ -29,12 +28,14 @@
   color: #000;
   background-color: transparent;
   top: 10%;
+  padding: 0px;
   width: 100%;
 }
 .scrolled {
   position: fixed;
   color: #FFF;
   background-color: #000; 
-  top: 5%;
+  top: 0;
+  padding: 20px;
   width: 100%;
 }
