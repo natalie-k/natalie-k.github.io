@@ -44,12 +44,15 @@ a {
   font: 20px "Tahoma";
   text-decoration: none;
 }
-.notScrolled a:active {
-  color: #000;
-  border-bottom-color: 3px solid #000;
+a.active {
+  border-bottom: 3px solid;
 }
-.scrolled a:active {
+.notScrolled a{
+  color: #000;
+  border-bottom-color: #000;
+}
+.scrolled a {
   color: #FFF;
-  border-bottom-color: 3px solid #FFF;
+  border-bottom-color: #FFF;
 }
   
