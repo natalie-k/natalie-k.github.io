@@ -23,7 +23,7 @@
 }
 .text p{
   font: 18px "Tahoma";
-  text-decoration: italic;
+  font-style: italic;
 }
 #navbar {
   text-align: center;
