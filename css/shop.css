@@ -17,8 +17,9 @@
 .text {
   position: absolute;
   width: 100%;
-  top: 35%;
-  text-align: center;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);  text-align: center;
 }
 .button {
   padding: 15px;
