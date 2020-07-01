@@ -36,4 +36,10 @@ a.active {
 .margin {
   margin-right: 20px;
 }
-  
+h1 {
+  font: 124px "Impact";
+}
+h2{
+  font: 18px "Tahoma";
+  font-style: italic;
+}
