@@ -4,8 +4,7 @@
 }
 .header {
   position: relative;
-  filter: brightness(120%);
-  blur: 2;
+  filter: contrast(50%) brightness(150%);
   background-image: url("https://lp-cms-production.imgix.net/2019-06/48425906.jpg");
   height: 80%; 
   background-position: center;
