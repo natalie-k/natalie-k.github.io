@@ -37,6 +37,7 @@
         navbar.classList.remove("notScrolled");
         navbar.classList.add("scrolled");
         var timer = setInterval(function () {
+            var op = 0.1;
             if (op >= 1){
                 clearInterval(timer);
             }
@@ -48,6 +49,7 @@
         navbar.classList.remove("scrolled");
         navbar.classList.add("notScrolled");
         var timer = setInterval(function () {
+            var op = 1;
             if (op <= 0.1){
                 clearInterval(timer);
                 scroll.style.display = 'none';
