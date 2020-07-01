@@ -47,7 +47,7 @@ a {
 a.active {
   border-bottom: 3px solid;
 }
-.notScrolled a{
+.notScrolled a {
   color: #000;
   border-bottom-color: #000;
 }
