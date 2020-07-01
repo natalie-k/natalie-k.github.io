@@ -47,3 +47,13 @@ p {
   font: 16px "Tahoma";
   line-height: 30px;
 }
+.arrow {
+  position: absolute;
+  bottom: 10px;
+  width: 30px;
+  height: 30pxd;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
