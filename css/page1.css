@@ -43,11 +43,11 @@ a {
   padding: 10px;
   font: 20px "Tahoma";
 }
-.aNotScrolled {
+.notScrolled a {
   color: #000;
   border-bottom-color: #000;
 }
-.aScrolled {
+.scrolled a {
   color: #FFF;
   border-bottom-color: #FFF;
 }
