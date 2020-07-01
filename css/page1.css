@@ -15,7 +15,7 @@
 .text {
   position: absolute;
   width: 100%;
-  top: 50%;
+  top: 45%;
   text-align: center;
   font: 124px "Impact";
 }
@@ -25,7 +25,6 @@
 }
 .notScrolled {
   position: absolute;
-  color: #000;
   background-color: transparent;
   top: 5%;
   padding: 0px;
@@ -33,10 +32,25 @@
 }
 .scrolled {
   position: fixed;
-  color: #FFF;
   background-color: #000; 
   opacity: 80%;
   top: 0;
   padding: 20px;
   width: 100%;
 }
+a {
+  padding: 10px;
+  font: 20px "Tahoma";
+}
+.aNotScrolled {
+  color: #000;
+  border-bottom-color: #000;
+}
+.aScrolled {
+  color: #FFF;
+  border-bottom-color: #FFF;
+}
+a:active {
+  border-bottom: 3px solid;
+}
+  
