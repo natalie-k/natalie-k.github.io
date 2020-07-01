@@ -19,7 +19,7 @@
   text-align: center;
   font: 124px "Impact";
 }
-.navbar {
+#navbar {
   overflow: hidden;
   color: #000;
 }
