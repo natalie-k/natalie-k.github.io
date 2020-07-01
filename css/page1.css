@@ -18,10 +18,10 @@
   top: 45%;
   text-align: center;
 }
-h1.text {
+.text h1 {
   font: 124px "Impact";
 }
-p.text {
+.text p{
   font: 18px "Tahoma";
   text-decoration: italic;
 }
