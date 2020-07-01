@@ -48,13 +48,14 @@ p {
   line-height: 30px;
 }
 .alignBottom{
-  bottom: 20px;
   position: absolute;
+  bottom: 20px;
   left: 50%;
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 .arrow {
+  position: absolute;
   width: 20px;
   height: 20px;
   border-bottom: 3px solid black;
