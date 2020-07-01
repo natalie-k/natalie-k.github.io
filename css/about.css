@@ -12,6 +12,9 @@
   padding: 0;
   margin: 0;
 }
-h1 {
+.text {
+  position: absolute;
+  width: 100%;
   top: 35%;
+  text-align: center;
 }
