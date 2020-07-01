@@ -6,7 +6,7 @@
     <div class="cover">
       <p class="text">Testing</p>
     </div>
-    <div id="navbar">
+    <div id="navbar" class="notScrolled">
       <a href="https://natalie-k.github.io/test">Test</a>
       <a href="https://natalie-k.github.io/another-page">Another page</a>
     </div>
@@ -23,6 +23,7 @@
         navbar.classList.add("scrolled")
       } else {
         navbar.classList.remove("scrolled");
+        navbar.classList.add("notScrolled");
       }
     }
   </script>
