@@ -17,7 +17,13 @@
   width: 100%;
   top: 45%;
   text-align: center;
+}
+h1.text {
   font: 124px "Impact";
+}
+p.text {
+  font: 18px "Tahoma";
+  text-decoration: italic;
 }
 #navbar {
   text-align: center;
