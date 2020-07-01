@@ -17,19 +17,19 @@
   padding-bottom: 20px;
   width: 100%;
 }
-a {
+#navbar a {
   padding: 10px;
   font: 20px "Tahoma";
   text-decoration: none;
 }
-a.active {
+#navbar a.active {
   border-bottom: 3px solid;
 }
-.notScrolled a {
+#navbar .notScrolled a {
   color: #000;
   border-bottom-color: #000;
 }
-.scrolled a {
+#navbar .scrolled a {
   color: #FFF;
   border-bottom-color: #FFF;
 }
