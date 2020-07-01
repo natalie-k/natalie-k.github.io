@@ -47,7 +47,7 @@ p {
   font: 16px "Tahoma";
   line-height: 30px;
 }
-.alignBottom{
+#scroll{
   position: absolute;
   bottom: 20px;
   left: 50%;
