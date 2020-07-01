@@ -35,6 +35,7 @@
   position: fixed;
   color: #FFF;
   background-color: #000; 
+  opacity: 80%;
   top: 0;
   padding: 20px;
   width: 100%;
