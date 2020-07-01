@@ -17,11 +17,10 @@
 .text {
   position: absolute;
   width: 100%;
-  top: 45%;
+  top: 35%;
   text-align: center;
 }
 .button {
-  margin-top: 30px;
   padding: 15px;
   font: 20px "Tahoma";
   background-color: #099;
