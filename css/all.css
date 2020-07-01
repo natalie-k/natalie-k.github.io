@@ -25,11 +25,11 @@
 #navbar a.active {
   border-bottom: 3px solid;
 }
-#navbar .notScrolled a {
+.notScrolled a {
   color: #000;
   border-bottom-color: #000;
 }
-#navbar .scrolled a {
+.scrolled a {
   color: #FFF;
   border-bottom-color: #FFF;
 }
