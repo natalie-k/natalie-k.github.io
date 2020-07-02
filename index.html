@@ -2,26 +2,6 @@
   <head>
     <link rel="stylesheet" href="sources/page1.css">
     <link rel="stylesheet" href="sources/all.css">
-    <script>
-      window.onscroll = function() {myFunction()};
-        var sticky = 20;
-        var scroll = document.getElementById("scroll");
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-                var op = 1;
-                var timer = setInterval(function () {
-                    if (op <= 0.1){
-                        clearInterval(timer);
-                        scroll.style.display = 'none';
-                    }
-                    scroll.style.opacity = op;
-                    scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
-                    op -= op * 0.1;
-                }, 20);
-              }
-        }
-      onscroll();
-    </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script> 
     $(function(){
