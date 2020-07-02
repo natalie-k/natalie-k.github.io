@@ -10,6 +10,16 @@
       <script>
           window.onscroll = function() {myFunction()};
           var navbar = document.getElementById("navbar");
+          var a = document.getElementById("a");
+          var h = document.getElementById("h");
+          var s = document.getElementById("s");
+          if(a.href === window.location.href){
+                a.classList.add("active");
+          }else if(h.href === window.location.href){
+                h.classList.add("active");
+          }else if(s.href === window.location.href){
+               s.classList.add("active");
+          }
           var sticky = navbar.offsetTop;
           function myFunction() {
             if (window.pageYOffset >= sticky) {
