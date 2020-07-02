@@ -2,7 +2,12 @@
   <head>
     <link rel="stylesheet" href="sources/about.css">
     <link rel="stylesheet" href="sources/all.css">
-    <link rel="import" href="sources/navbar.html">
+    <script src="jquery.js"></script> 
+    <script> 
+      $(function(){
+        $("#navbarElement").load("navbar.html"); 
+      });
+    </script> 
   </head>
   <center><div class="header"></div>
     <h1 class="text">ABOUT US</h1>
@@ -15,5 +20,5 @@
       <br/><br/>
     </p>
   </center>
-  <div id="navbar"></div>
+  <div id="navbarElement"></div>
 </html>
