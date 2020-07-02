@@ -2,6 +2,12 @@
   <head>
     <link rel="stylesheet" href="sources/shop.css">
     <link rel="stylesheet" href="sources/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#navbarelement").load("sources/navbar.html"); 
+    });
+    </script> 
   </head>
   <center><div class="header"></div>
     <div  class="text">
@@ -9,23 +15,5 @@
       <a class="button" href="https://redbubble.com" target="_blank">Go to Redbubble</a>
     </div>
   </center>
-  <div id="navbar" class="notScrolled">
-    <a href="https://natalie-k.github.io/">Home</a>
-    <a class="active" href="https://natalie-k.github.io/shop">Shop</a>
-    <a class="margin" href="https://natalie-k.github.io/about-us">About Us</a>
-  </div>
-    <script>
-    window.onscroll = function() {myFunction()};
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.remove("notScrolled");
-        navbar.classList.add("scrolled");
-      } else {
-        navbar.classList.remove("scrolled");
-        navbar.classList.add("notScrolled");
-      }
-    }
-  </script>
+  <div id="navbarelement">
 </html>
