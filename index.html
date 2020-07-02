@@ -31,11 +31,9 @@
   </center>
   <script>
       window.onscroll = function() {myFunction()};
-      var sticky = 2;
+      var sticky = 20;
       function myFunction() {
         if (window.pageYOffset >= sticky) {
-              navbar.classList.remove("notScrolled");
-              navbar.classList.add("scrolled");
               var op = 1;
               var timer = setInterval(function () {
                   if (op <= 0.1){
