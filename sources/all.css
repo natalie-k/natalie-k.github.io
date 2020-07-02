@@ -47,6 +47,10 @@ p {
   font: 16px "Tahoma";
   line-height: 30px;
 }
+small {
+  font: 14px "Tahoma";
+  line-height: 30px;
+}
 #scroll{
   position: absolute;
   bottom: 20px;
