@@ -10,6 +10,7 @@
       <script>
           window.onscroll = function() {myFunction()};
           var navbar = document.getElementById("navbar");
+          var home = false;
           var a = document.getElementById("a");
           var h = document.getElementById("h");
           var s = document.getElementById("s");
@@ -17,6 +18,7 @@
                 a.classList.add("active");
           }else if(h.href === window.location.href){
                 h.classList.add("active");
+                home = true;
           }else if(s.href === window.location.href){
                s.classList.add("active");
           }
@@ -28,6 +30,18 @@
             } else {
               navbar.classList.remove("scrolled");
               navbar.classList.add("notScrolled");
+              if(home){
+                    var op = 1;
+                    var timer = setInterval(function () {
+                        if (op <= 0.1){
+                            clearInterval(timer);
+                            scroll.style.display = 'none';
+                        }
+                        scroll.style.opacity = op;
+                        scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                        op -= op * 0.1;
+                    }, 20);
+              ]
             }
           }
       </script>
