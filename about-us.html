@@ -6,7 +6,6 @@
     <script> 
     $(function(){
       $("#navbarelement").load("sources/navbar.html"); 
-      $("#a").addClass("active");
     });
     </script> 
   </head>
@@ -22,4 +21,8 @@
     </p>
   </center>
   <div id="navbarelement"></div>
+  <script>
+    var a = document.getElementById("a");
+    a.classList.add("active");
+  </script>
 </html>
