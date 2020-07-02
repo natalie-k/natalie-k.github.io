@@ -30,23 +30,21 @@
     </p>
   </center>
   <script>
-      window.onscroll = function() {myFunction()};
-        var sticky = 20;
-        var scroll = document.getElementById("scroll");
-        function myFunction() {
-          if (window.pageYOffset >= sticky) {
-                var op = 1;
-                var timer = setInterval(function () {
-                    if (op <= 0.1){
-                        clearInterval(timer);
-                        scroll.style.display = 'none';
-                    }
-                    scroll.style.opacity = op;
-                    scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
-                    op -= op * 0.1;
-                }, 20);
-              }
-        }
-      onscroll();
+    var sticky = 20;
+    var scroll = document.getElementById("scroll");
+    window.onscroll = function() {
+      if (window.pageYOffset >= sticky) {
+        var op = 1;
+        var timer = setInterval(function () {
+            if (op <= 0.1){
+                clearInterval(timer);
+                scroll.style.display = 'none';
+            }
+            scroll.style.opacity = op;
+            scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
+            op -= op * 0.1;
+        }, 20);
+      }
+    }
   </script>
 </html>
