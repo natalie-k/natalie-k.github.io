@@ -18,8 +18,8 @@
       }
       .menu {
           position: fixed;
-          top: 0;
-          left: 0;
+          top: 5;
+          left: 5;
       }
       .nav {
         position: fixed;
@@ -38,7 +38,7 @@
       }
     </style>
     <script>
-        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
         var a = document.getElementById("a");
         var h = document.getElementById("h");
         var s = document.getElementById("s");
@@ -46,6 +46,7 @@
             a.style.color = "white";
         }else if(h.href === window.location.href){
             h.style.color = "white";
+            menu.style.color = "white;
         }else if(s.href === window.location.href){
             s.style.color = "white";
         }
