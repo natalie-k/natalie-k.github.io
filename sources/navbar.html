@@ -27,8 +27,21 @@
             if (window.pageYOffset >= sticky) {
               navbar.classList.remove("notScrolled");
               navbar.classList.add("scrolled");
-              if (home) {
+              if (home==true) {
                 var sticky = 20;
+                var scroll = document.getElementById("scroll");
+                if (window.pageYOffset >= sticky) {
+                  var op = 1;
+                  var timer = setInterval(function () {
+                      if (op <= 0.1){
+                          clearInterval(timer);
+                          scroll.style.display = 'none';
+                      }
+                      scroll.style.opacity = op;
+                      scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                      op -= op * 0.1;
+                  }, 20);
+                }
               }
             } else {
               navbar.classList.remove("scrolled");
