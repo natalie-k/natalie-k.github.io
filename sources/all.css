@@ -50,6 +50,7 @@ p {
 small {
   font: 14px "Tahoma";
   line-height: 30px;
+  color: #FFF;
 }
 #scroll{
   position: absolute;
@@ -62,7 +63,7 @@ small {
   width: 20px;
   height: 20px;
   margin-bottom: 5px;
-  border-bottom: 3px solid black;
-  border-right: 3px solid black;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
   transform: rotate(45deg);
 }
