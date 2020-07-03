@@ -7,6 +7,46 @@
             <a id="s" href="https://natalie-k.github.io/shop">Shop</a>
             <a id="a" class="margin" href="https://natalie-k.github.io/about-us">About Us</a>
       </div>
+      <style>
+            #navbar {
+              text-align: right;
+            }
+            .notScrolled {
+              position: absolute;
+              background-color: transparent;
+              top: 5%;
+              padding-top: 0px;
+              width: 100%;
+            }
+            .scrolled {
+              position: fixed;
+              background-color: #000; 
+              opacity: 80%;
+              top: 0;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              width: 100%;
+            }
+            #navbar a {
+              padding: 10px;
+              font: 20px "Tahoma";
+              text-decoration: none;
+            }
+            #navbar a.active {
+              border-bottom: 3px solid;
+            }
+            .notScrolled a {
+              color: #000;
+              border-bottom-color: #000;
+            }
+            .scrolled a {
+              color: #FFF;
+              border-bottom-color: #FFF;
+            }
+            .margin {
+              margin-right: 20px;
+            }
+      </style>
       <script>
           window.onscroll = function() {myFunction()};
           var navbar = document.getElementById("navbar");
