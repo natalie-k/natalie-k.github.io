@@ -25,6 +25,7 @@
 }
 
 .white a {
-  color: #FFF
+  color: #FFF;
+  border-bottom-color: #FFF;
 }
 
