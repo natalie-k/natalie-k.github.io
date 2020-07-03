@@ -4,7 +4,7 @@
 }
 .header {
   position: relative;
-  filter: contrast(50%) brightness(150%);
+  filter: contrast(40%) brightness(170%);
   background-image: url("https://cf.ltkcdn.net/garden/images/orig/239642-1600x1067-looking-up-at-coconut-palm.jpg");
   background-attachment: fixed;
   height: 100%; 
