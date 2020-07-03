@@ -36,8 +36,20 @@
 .margin {
   margin-right: 20px;
 }
-h1 {
-  font: 180px 'Caveat', cursive;
+@media only screen and (max-width: 400px) {
+  h1 {
+    font: 100px 'Caveat', cursive;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+  h1 {
+    font: 140px 'Caveat', cursive;
+  }
+}
+@media only screen and (min-width: 501px) {
+  h1 {
+    font: 180px 'Caveat', cursive;
+  }
 }
 h2 {
   font: 18px "Tahoma";
