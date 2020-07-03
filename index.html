@@ -5,7 +5,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script> 
     $(function(){
-      $("#navbarelement").load("sources/navbar.html"); 
+      if ($(window).width() > 960){
+        $("#navbarelement").load("sources/navbar.html");
+      }
     });
     </script>
   </head>
