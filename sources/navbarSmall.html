@@ -1,5 +1,5 @@
 <html>
-    <span class = "menu" onClick="open()">&#9776;</span>
+    <span class = "menu" onClick="openNav()">&#9776;</span>
     <div id="navbar" class="nav">
         <a id="h" href="https://natalie-k.github.io/" class="active" style="color: white;">Home</a>
         <a id="s" href="https://natalie-k.github.io/shop" style="color: white;">Shop</a>
@@ -16,6 +16,7 @@
           position: fixed;
           top: 5;
           left: 5;
+          font-size: 40px;
       }
       .nav {
         position: fixed;
@@ -48,7 +49,7 @@
         }else if(s.href === window.location.href){
             s.style.color = "white";
         }
-        function open() {
+        function openNav() {
             navbar.style.width = "250px";
         }
     </script>
