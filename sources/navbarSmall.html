@@ -1,28 +1,44 @@
 <html>
-<div class="bar"></div>
-<div class="bar"></div>
-<div class="bar"></div>
-<div id="navbar" class="notScrolled">
-    <a id="h" href="https://natalie-k.github.io/" class="active" style="color: white;">Home</a>
-    <a id="s" href="https://natalie-k.github.io/shop" style="color: white;">Shop</a>
-    <a id="a" class="margin" href="https://natalie-k.github.io/about-us" style="color: white;">About Us</a>
-</div>
-<style>
-  .bar {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-  }
-  #navbar {
-    width: 200px;
-    height: 100%;
-    background-color: #333;
-  }
-  a{
-    color: #FFF;
-    padding: 10px;
-    font: 18px "Tahoma";
-  }
-</style>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div id="navbar" class="nav">
+        <a id="h" href="https://natalie-k.github.io/" class="active" style="color: white;">Home</a>
+        <a id="s" href="https://natalie-k.github.io/shop" style="color: white;">Shop</a>
+        <a id="a" class="margin" href="https://natalie-k.github.io/about-us" style="color: white;">About Us</a>
+    </div>
+    <style>
+      .bar {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+      }
+      .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0px;
+        height: 100%;
+        background-color: #333;
+      }
+      a{
+        color: #BBB;
+        padding: 10px;
+        font: 18px "Tahoma";
+      }
+    </style>
+    <script>
+        var navbar = document.getElementById("navbar");
+        var a = document.getElementById("a");
+        var h = document.getElementById("h");
+        var s = document.getElementById("s");
+        if(a.href === window.location.href){
+            a.style.color = "white";
+        }else if(h.href === window.location.href){
+            h.style.color = "white";
+        }else if(s.href === window.location.href){
+            s.style.color = "white";
+        }
+    </script>
 </html>
