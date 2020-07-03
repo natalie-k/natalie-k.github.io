@@ -4,7 +4,6 @@
 }
 .cover {
   position: relative;
-  filter: contrast(70%) brightness(120%);
   background-image: url("background.png");
   background-attachment: fixed;
   height: 100%; 
