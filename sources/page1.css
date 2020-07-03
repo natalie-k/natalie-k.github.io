@@ -5,7 +5,7 @@
 .cover {
   position: relative;
   filter: contrast(70%) brightness(120%);
-  background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-image: url("background.png");
   background-attachment: fixed;
   height: 100%; 
   background-position: center;
