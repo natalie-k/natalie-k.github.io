@@ -37,7 +37,8 @@
   margin-right: 20px;
 }
 h1 {
-  font: 124px 'Caveat', cursive;;
+  font: 180px 'Caveat', cursive;
+  color: #FFF;
 }
 h2 {
   font: 18px "Tahoma";
