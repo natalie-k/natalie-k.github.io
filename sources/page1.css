@@ -15,10 +15,23 @@
     margin: 0;
   }
 }
-@media (max-aspect-ratio: 10/9) {
+@media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 10/9) {
   .cover {
     position: relative;
     background-image: url("backgroundS.png");
+    background-attachment: fixed;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+}
+@media (max-aspect-ratio: 3/4) {
+  .cover {
+    position: relative;
+    background-image: url("backgroundXS.png");
     background-attachment: fixed;
     height: 100%; 
     background-position: center;
