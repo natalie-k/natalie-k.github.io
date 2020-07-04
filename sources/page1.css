@@ -74,7 +74,7 @@
     text-align: center;
   }
   h1 {
-    font-size: 100px;
+    font-size: 100px!important;
   }
 }
 @media only screen and (max-height: 449px) {
@@ -85,7 +85,7 @@
     text-align: center;
   }
   h1 {
-    font-size: 50px;
+    font-size: 50px!important;
   }
 }
 h2 {
