@@ -18,9 +18,12 @@
       }
       #menuBar {
           position: fixed;
-          top: 5px;
-          left: 15px;
+          top: 0px;
+          padding-left: 5px;
+          width: 100%;
           font-size: 40px;
+          background-color: #0000;
+          transition: 1s;
       }
       .nav {
         position: fixed;
@@ -69,8 +72,12 @@
         function closeNav() {
             navbar.style.width = "0px";
         }
+        if(window.scrollY<5){
+            menuBar.style.background = "#0000"
+        }
         window.onscroll = function(){myFunction()};
         function myFunction(){
+          menuBar.style.background = "#000";
           if (h.href === window.location.href) {
             var scroll = document.getElementById("scroll");
             var op = 1;
