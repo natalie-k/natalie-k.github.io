@@ -66,6 +66,7 @@ small {
   border-bottom: 3px solid white;
   border-right: 3px solid white;
   transform: rotate(45deg);
+  -webkit-animation: bounce 2s infinite;
 }
 #static {
   position: absolute;
