@@ -76,23 +76,18 @@
         function myFunction(){
           if(window.scrollY<5){
             menuBar.style.background = "#0000"
+            if (h.href === window.location.href) {
+              var scroll = document.getElementById("scroll");
+              scroll.style.color="#FFF"
+            }
           }
           else {
             menuBar.style.background = "#000";
-          }
-          if (h.href === window.location.href) {
-            var scroll = document.getElementById("scroll");
-            var op = 1;
-            var timer = setInterval(function () {
-              if (op <= 0.1){
-                clearInterval(timer);
-                scroll.style.display = 'none';
-              }
-              scroll.style.opacity = op;
-              scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
-              op -= op * 0.2;
-            }, 20);
-          }
+            if (h.href === window.location.href) {
+              var scroll = document.getElementById("scroll");
+              scroll.style.color="#FFF"
+            }
+          } 
         } 
     </script>
 </html>
