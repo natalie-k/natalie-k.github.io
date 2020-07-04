@@ -56,7 +56,7 @@
     font: 180px 'Caveat', cursive;
   }
 }
-@media only screen and (min-height: 630px) {
+@media only screen and (min-height: 705px) {
   .text {
     position: absolute;
     width: 100%;
@@ -65,7 +65,7 @@
     text-align: center;
   }
 }
-@media only screen and (max-height: 629px) and (min-height: 450px) {
+@media only screen and (max-height: 705px) and (min-height: 450px) {
   .text {
     position: absolute;
     width: 100%;
@@ -75,6 +75,7 @@
   }
   h1 {
     font-size: 100px!important;
+    line-height: 100px!important;
   }
 }
 @media only screen and (max-height: 449px) {
@@ -86,6 +87,7 @@
   }
   h1 {
     font-size: 50px!important;
+    line-height: 50px!important;
   }
 }
 h2 {
