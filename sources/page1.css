@@ -41,11 +41,11 @@
     margin: 0;
   }
 }
-text {
+.text {
   position: absolute;
-  top: calc(calc(100vh - 82px) / 2);
-  transform: translateY(-50%);
   width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
   text-align: center;
 }
 @media only screen and (max-width: 400px) {
