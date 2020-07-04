@@ -72,12 +72,14 @@
         function closeNav() {
             navbar.style.width = "0px";
         }
-        if(window.scrollY<5){
-            menuBar.style.background = "#0000"
-        }
         window.onscroll = function(){myFunction()};
         function myFunction(){
-          menuBar.style.background = "#000";
+          if(window.scrollY<5){
+            menuBar.style.background = "#0000"
+          }
+          else {
+            menuBar.style.background = "#000";
+          }
           if (h.href === window.location.href) {
             var scroll = document.getElementById("scroll");
             var op = 1;
