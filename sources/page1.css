@@ -41,6 +41,13 @@
     margin: 0;
   }
 }
+text {
+  position: absolute;
+  top: calc(calc(100vh - 82px) / 2);
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
 @media only screen and (max-width: 400px) {
   h1 {
     font: 100px 'Caveat', cursive;
@@ -55,13 +62,6 @@
   h1 {
     font: 180px 'Caveat', cursive;
   }
-}
-text {
-  position: absolute;
-  top: calc(calc(100vh - 82px) / 2);
-  transform: translateY(-50%);
-  width: 100%;
-  text-align: center;
 }
 h2 {
   font: 18px "Tahoma";
