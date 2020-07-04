@@ -56,7 +56,7 @@ small {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  transition: 1s;
+  transition: 0.5s;
   color: white;
 }
 .arrow {
