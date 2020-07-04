@@ -80,10 +80,14 @@
               var scroll = document.getElementById("scroll");
               scroll.style.color="#FFF"
             }
+            else {
+                menuBar.style.color = "#FFF"
+            }
           }
           else {
             menuBar.style.background = "#000";
-            if (h.href === window.location.href) {
+            menuBar.style.color = "#FFF";
+           if (h.href === window.location.href) {
               var scroll = document.getElementById("scroll");
               scroll.style.color="#0000"
             }
