@@ -56,39 +56,12 @@
     font: 180px 'Caveat', cursive;
   }
 }
-@media only screen and (min-height: 705px) {
-  .text {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-  }
-}
-@media only screen and (max-height: 705px) and (min-height: 450px) {
-  .text {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-  }
-  h1 {
-    font-size: 100px!important;
-    line-height: 100px!important;
-  }
-}
-@media only screen and (max-height: 449px) {
-  .text {
-    position: absolute;
-    width: 100%;
-    top: 5px;
-    text-align: center;
-  }
-  h1 {
-    font-size: 50px!important;
-    line-height: 50px!important;
-  }
+.text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
 }
 h2 {
   font: 18px "Tahoma";
