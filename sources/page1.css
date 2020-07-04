@@ -43,8 +43,7 @@
 }
 .text {
   position: absolute;
-  width: 100%;
-  top: 50%;
+  width: 100%
   transform: translateY(-50%);
   text-align: center;
 }
@@ -52,15 +51,27 @@
   h1 {
     font: 100px 'Caveat', cursive;
   }
+  .text {
+    top: 30%;
+    transform: translateY(-30%);
+  }
 }
 @media only screen and (min-width: 401px) and (max-width: 500px) {
   h1 {
     font: 140px 'Caveat', cursive;
   }
+  .text {
+    top: 45%;
+    transform: translateY(-45%);
+  }
 }
 @media only screen and (min-width: 501px) {
   h1 {
     font: 180px 'Caveat', cursive;
+  }
+  .text {
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 h2 {
