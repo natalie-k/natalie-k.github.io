@@ -44,7 +44,6 @@
 .text {
   position: absolute;
   width: 100%;
-  transform: translateY(-50%);
   text-align: center;
 }
 @media only screen and (max-width: 400px) {
@@ -72,14 +71,19 @@
   }
 }
 @media only screen and (min-height: 451px) and (max-height: 630px) {
+  text {
+    top: calc(calc(100vh - 82px) / 2);
+    transform: translateY(-50%);
+  }
   h1 {
     font-size: 100px;
     line-height: 100px;
   }
 }
-@media only screen and (min-height: 630px) {
+@media only screen and (min-height: 631px) {
   text {
     top: calc(calc(100vh - 82px) / 2);
+    transform: translateY(-50%);
   }
 }
 h2 {
