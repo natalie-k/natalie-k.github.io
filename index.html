@@ -23,7 +23,7 @@
     </div>
     <div class="text" style="color:white;">
       <div onmouseover="hovered()" onmouseout="left()">
-        <img id="static" src="sources/logo.png">
+        <img id="static" src="sources/logo.png" width="100px">
         <img style="opacity:0" id="active" src="sources/logo.gif">
       </div>
       <h1>Choke Change</h1>
@@ -39,6 +39,15 @@
       text</br></br>text</br></br>text
     </p>
 </center>
+<style>
+  #static {
+    position: absolute;
+    top: 5%
+  }
+  #active {
+    position: absolute;
+    top: 5%
+  }
 <script>
 function hovered() {
     var active=document.getElementById("active");
