@@ -63,7 +63,7 @@
 }
 @media only screen and (max-height: 450px) {
   text {
-    top: 10px;
+    top: 5px;
   }
   h1 {
     font-size: 100px;
