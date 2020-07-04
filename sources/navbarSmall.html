@@ -3,7 +3,7 @@
     <div id="navbar" class="nav">
         <div width="100%">
             <img src="sources/choke-change-logo.png" alt="" width="80%" style="filter: brightness(180%)">
-            <span class="x">&times;</span>
+            <span class="x" onClick="closeNav()">&times;</span>
         </div>
         <a id="h" href="https://natalie-k.github.io/">Home</a>
         <a id="s" href="https://natalie-k.github.io/shop">Shop</a>
@@ -65,6 +65,9 @@
         }
         function openNav() {
             navbar.style.width = "100%";
+        }
+        function openNav() {
+            navbar.style.width = "0px";
         }
     </script>
 </html>
