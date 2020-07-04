@@ -1,5 +1,5 @@
 <html>
-      <img src="sources/choke-change-logo.png" alt="" width="250px" style="position: absolute; top: 5%; transform: translateY(-5%); left: 5%; filter: brightness(180%)">
+      <img id="logo" src="sources/choke-change-logo.png" alt="" width="250px" class="logo">
       <div id="navbar" class="notScrolled">
             <a id="h" href="https://natalie-k.github.io/">Home</a>
             <a id="s" href="https://natalie-k.github.io/shop">Shop</a>
@@ -13,7 +13,7 @@
               position: absolute;
               background-color: transparent;
               top: 5%;
-              transform: translateY(-5%);
+              transform: translateY(-50%);
               padding-top: 0px;
               width: 100%;
             }
@@ -45,10 +45,25 @@
             .margin {
               margin-right: 20px;
             }
+            .logo {
+              position: absolute;
+              top: 5%;
+              left: 5%;
+              transform: translateY(-50%) translateX(-50%);
+              filter: brightness(180%)
+            }
+            .logoS {
+              position: absolute;
+              top: 20px;
+              left: 20px;
+              filter: brightness(180%)
+            }
+                  
       </style>
       <script>
           window.onscroll = function() {myFunction()};
           var navbar = document.getElementById("navbar");
+          var logo = document.getElementById("logo");
           var a = document.getElementById("a");
           var h = document.getElementById("h");
           var s = document.getElementById("s");
@@ -69,6 +84,8 @@
             if (window.pageYOffset >= sticky) {
               navbar.classList.remove("notScrolled");
               navbar.classList.add("scrolled");
+              logo.classList.remove("logo");
+              logo.classList.add("logoS");
               if (home) {
                 var scroll = document.getElementById("scroll");
                 if (window.pageYOffset >= sticky) {
@@ -87,6 +104,8 @@
             } else {
               navbar.classList.remove("scrolled");
               navbar.classList.add("notScrolled");
+              logo.classList.remove("logoS");
+              logo.classList.add("logo");
             }
           }
       </script>
