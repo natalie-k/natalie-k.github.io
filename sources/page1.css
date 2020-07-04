@@ -48,9 +48,12 @@
   transform: translateY(-50%);
   text-align: center;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) or (max-height: 450) {
   h1 {
     font: 100px 'Caveat', cursive;
+  }
+  .text {
+    top: 10px;
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 500px) {
