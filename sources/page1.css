@@ -72,11 +72,6 @@ p {
   line-height: 30px;
   padding: 15px;
 }
-small {
-  font: 14px "Tahoma";
-  line-height: 30px;
-  color: #FFF;
-}
 #scroll{
   position: absolute;
   bottom: 10px;
