@@ -49,7 +49,7 @@
   text-align: center;
 }
 small {
-  font: 14px "Tahoma";
+  font: 14px "Tahoma" white;
 }
 #scroll{
   position: absolute;
