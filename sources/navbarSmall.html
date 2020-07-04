@@ -1,5 +1,5 @@
 <html>
-    <span class = "menu" onClick="openNav()">&#9776;</span>
+    <span id = "menuBar" onClick="openNav()">&#9776;</span>
     <div id="navbar" class="nav">
         <a id="h" href="https://natalie-k.github.io/" class="active" style="color: white;">Home</a>
         <a id="s" href="https://natalie-k.github.io/shop" style="color: white;">Shop</a>
@@ -12,7 +12,7 @@
         background-color: black;
         margin: 6px 0;
       }
-      .menu {
+      #menuBar {
           position: fixed;
           top: 5;
           left: 5;
@@ -30,14 +30,15 @@
       }
       a{
         color: #AAA;
-        padding: 10px;
+        padding: 15px;
         font: 18px "Tahoma";
         text-decoration: none;
         width: 250px;
+        display: block;
       }
     </style>
     <script>
-        var menu = document.getElementById("menu");
+        var menuBar = document.getElementById("menuBar");
         var navbar = document.getElementById("navbar");
         var a = document.getElementById("a");
         var h = document.getElementById("h");
@@ -46,7 +47,7 @@
             a.style.color = "white";
         }else if(h.href === window.location.href){
             h.style.color = "white";
-            menu.style.color = "white";
+            menuBar.style.color = "white";
         }else if(s.href === window.location.href){
             s.style.color = "white";
         }
