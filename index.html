@@ -22,6 +22,10 @@
       <small>Scroll Down</small>
     </div>
     <div class="text" style="color:white;">
+      <div onmouseover="hovered()" onmouseout="left()">
+        <img id="static" src="sources/logo.png">
+        <img style="opacity:0" id="active" src="sources/logo.gif">
+      </div>
       <h1>Choke Change</h1>
       <h2>Random Caption</h2>
     </div>
@@ -35,4 +39,18 @@
       text</br></br>text</br></br>text
     </p>
 </center>
+<script>
+function hovered() {
+    var active=document.getElementById("active");
+    active.style.opacity = 1;
+    var statice=document.getElementById("static");
+    static.style.opacity = 0;
+  }
+  function left() {
+    var active=document.getElementById("active");
+    active.style.opacity = 0;
+    var statice=document.getElementById("static");
+    static.style.opacity = 1;
+  }
+</script>
 </html>
