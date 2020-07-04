@@ -88,24 +88,17 @@
               logo.classList.add("logoS");
               if (home) {
                 var scroll = document.getElementById("scroll");
-                if (window.pageYOffset >= sticky) {
-                  var op = 1;
-                  var timer = setInterval(function () {
-                      if (op <= 0.1){
-                          clearInterval(timer);
-                          scroll.style.display = 'none';
-                      }
-                      scroll.style.opacity = op;
-                      scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
-                      op -= op * 0.2;
-                  }, 20);
-                }
+                scroll.style.opacity="0"
               }
             } else {
               navbar.classList.remove("scrolled");
               navbar.classList.add("notScrolled");
               logo.classList.remove("logoS");
               logo.classList.add("logo");
+              if (home) {
+                var scroll = document.getElementById("scroll");
+                scroll.style.opacity="1"
+              }
             }
           }
       </script>
