@@ -22,10 +22,10 @@
       <div class="arrow bounce"></div>
       <small>Scroll Down</small>
     </div>
-    <div class="text" style="color:white;">
-      <div onmouseover="hovered()" onmouseout="left()" width="150px" height="216">
+    <div class="text">
+      <div onmouseover="hovered()" onmouseout="left()">
         <img id="static" src="sources/logo.png" height="100%">
-        <img style="opacity:0" id="active" src="sources/logo.gif" height="80%">
+        <img style="opacity: 0;" id="active" src="sources/logo.gif" height="80%">
       </div>
     </div>
   </center>
@@ -41,16 +41,14 @@
     </p>
 </center>
 <script>
+  var active=document.getElementById("active");
+  var static=document.getElementById("static");
   function hovered() {
-    var active=document.getElementById("active");
     active.style.opacity = 1;
-    var statice=document.getElementById("static");
     static.style.opacity = 0;
   }
   function left() {
-    var active=document.getElementById("active");
     active.style.opacity = 0;
-    var statice=document.getElementById("static");
     static.style.opacity = 1;
   }
 </script>
