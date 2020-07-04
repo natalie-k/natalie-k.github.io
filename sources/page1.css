@@ -50,21 +50,22 @@
 }
 small {
   font: 14px "Tahoma";
-  color: white;
 }
 #scroll{
   position: absolute;
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
+  transition: 1s;
+  color: white;
 }
 .arrow {
   position: relative;
   width: 20px;
   height: 20px;
   margin-bottom: 5px;
-  border-bottom: 3px solid white;
-  border-right: 3px solid white;
+  border-bottom: 3px solid;
+  border-right: 3px solid;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
