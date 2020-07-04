@@ -69,5 +69,22 @@
         function closeNav() {
             navbar.style.width = "0px";
         }
+        window.onscroll = function(){myFunction()};
+              if (h.href === window.location.href) {
+                var scroll = document.getElementById("scroll");
+                if (window.pageYOffset >= sticky) {
+                  var op = 1;
+                  var timer = setInterval(function () {
+                      if (op <= 0.1){
+                          clearInterval(timer);
+                          scroll.style.display = 'none';
+                      }
+                      scroll.style.opacity = op;
+                      scroll.style.filter = 'alpha(opacity=' + op * 100 + ")";
+                      op -= op * 0.2;
+                  }, 20);
+                }
+              }
+        }   
     </script>
 </html>
