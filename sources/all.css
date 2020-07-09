@@ -65,10 +65,3 @@ small {
     transform: translateY(-30px) rotate(45deg);
   }
 }
-.container {
-  scroll-snap-type: y mandatory;
-}
-
-.child {
-  scroll-snap-align: start;
-}
