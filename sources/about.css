@@ -15,7 +15,7 @@
   margin: 0;
 }
 .circle {
-  height: 260px;
+  height: 280px;
   width: 260px;
   display: table-cell;
   text-align: center;
@@ -24,5 +24,6 @@
   background: #0008;
   color: #FFF;
   transform: rotate(350deg);
-  font: 14px "Tahoma";
+  font: 16px "Tahoma";
+  padding: 10px;
 }
