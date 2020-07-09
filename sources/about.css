@@ -52,4 +52,8 @@
 }
 .description {
   flex-direction: column;
+  padding-right:80px;
+}
+.row {
+  align-items: center;
 }
