@@ -38,3 +38,9 @@
     font: bold 45px "Tahoma";
   }
 }
+.row {
+  display: flex;
+}
+.description {
+  width: 50%;
+}
