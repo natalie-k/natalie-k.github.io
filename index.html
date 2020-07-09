@@ -18,31 +18,35 @@
     </script>
   </head>
   <center>
-    <div class="cover"></div>
-    <div id="scroll">
-      <div class="arrow bounce"></div>
-      <small>Scroll Down</small>
-    </div>
-    <div class="text">
-      <div onmouseover="hovered()" onmouseout="left()" style="display: inline-block;">
-        <img id="static" src="sources/logo.png" style="max-height: 70vh; max-width: 100%;">
-        <img style="opacity: 0; max-height: 70vh; max-width: 100%;" id="active" src="sources/logo.gif">
+    <div class="container">
+      <div class="child">
+        <div class="cover"></div>
+        <div id="scroll">
+          <div class="arrow bounce"></div>
+          <small>Scroll Down</small>
+        </div>
+        <div class="text">
+          <div onmouseover="hovered()" onmouseout="left()" style="display: inline-block;">
+            <img id="static" src="sources/logo.png" style="max-height: 70vh; max-width: 100%;">
+            <img style="opacity: 0; max-height: 70vh; max-width: 100%;" id="active" src="sources/logo.gif">
+          </div>
+        </div>
+        <div style="position:absolute; top: 50%; transform: translateY(-50%); width:100%" onmouseover="hovered()" onmouseout="left()">
+          <h1>Choke Change</h1>
+          <h2>Caption</h2><br>
+        </div>
       </div>
-    </div>
-    <div style="position:absolute; top: 50%; transform: translateY(-50%); width:100%" onmouseover="hovered()" onmouseout="left()">
-      <h1>Choke Change</h1>
-      <h2>Caption</h2><br>
+      <div class="child">
+          <br/>
+          <p>some text<br/><br/><br/><br/><br/><br/><br/><br/>
+          <b>text</b><br/><br/><br/><br/><br/><br/><br/><br/>
+          <i>more text</i><br/><br/><br/><br/><br/><br/><br/><br/>
+            text<br/><br/>text<br/><br/>text<br/><br/><br/><br/><br/><br/>
+          </p>
+      </div>
     </div>
   </center>
   <div id="navbarelement"></div>
-  <center>
-    <br/>
-    <p>some text<br/><br/>
-    <b>text</b><br/><br/>
-    <i>more text</i><br/><br/>
-      text<br/><br/>text<br/><br/>text
-    </p>
-</center>
 <script>
   var active=document.getElementById("active");
   var static=document.getElementById("static");
