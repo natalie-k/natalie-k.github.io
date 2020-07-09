@@ -42,5 +42,6 @@
   display: flex;
 }
 .description {
+  flex-direction: column;
   width: 50%;
 }
