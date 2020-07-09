@@ -25,3 +25,43 @@ p {
   line-height: 30px;
   padding: 15px;
 }
+.text {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms transform: translateY(-50%);
+  text-align: center;
+}
+small {
+  font: 14px "Tahoma";
+}
+#scroll{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  color: white;
+}
+.arrow {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  border-bottom: 3px solid;
+  border-right: 3px solid;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 50%, 100% {
+    transform: translateY(0) rotate(45deg);
+  }
+  25%, 75% {
+    transform: translateY(-30px) rotate(45deg);
+  }
+}
