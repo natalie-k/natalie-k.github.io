@@ -19,7 +19,7 @@
     padding: 30px;
   }
   h3 .row {
-    font: bold 35px "Tahoma"
+    font: bold 35px "Tahoma";
   }
 }
 @media only screen and (min-width: 401px) and (max-width: 450px) {
@@ -27,7 +27,7 @@
     padding: 50px;
   }
   h3 .row {
-    font: bold 40px "Tahoma"
+    font: bold 40px "Tahoma";
   }
 }
 @media only screen and (min-width: 451px) {
@@ -35,6 +35,6 @@
     padding: 80px;
   }
    h3 .row {
-    font: bold 45px "Tahoma"
+    font: bold 45px "Tahoma";
   }
 }
