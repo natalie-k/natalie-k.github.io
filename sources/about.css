@@ -16,9 +16,9 @@
 }
 @media only screen and (max-width: 400px) {
   .row {
-    padding: 20px;
+    padding: 30px;
   }
-  h3.row {
+  h3 .row {
     font: bold 35px "Tahoma"
   }
 }
@@ -26,7 +26,7 @@
   .row {
     padding: 50px;
   }
-  h3.row {
+  h3 .row {
     font: bold 40px "Tahoma"
   }
 }
@@ -34,7 +34,7 @@
   .row {
     padding: 80px;
   }
-   h3.row {
+   h3 .row {
     font: bold 45px "Tahoma"
   }
 }
