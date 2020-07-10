@@ -7,7 +7,7 @@
   filter: contrast(35%) brightness(180%);
   background-image: url("https://cf.ltkcdn.net/garden/images/orig/239642-1600x1067-looking-up-at-coconut-palm.jpg");
   background-attachment: fixed;
-  height: 100%; 
+  height: 100vh; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
