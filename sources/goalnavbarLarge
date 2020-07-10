@@ -2,7 +2,7 @@
       <div id="navbar" class="notScrolled">
             <a id="h" href="../..">Home</a>
             <a id="s" href="../shop">Shop</a>
-            <a id="a" class="../about-us">About Us</a>
+            <a id="a" class="margin" href="../about-us">About Us</a>
       </div>
       <a href="../.."><img id="logo" src="../sources/choke-change-logo.png" alt="" height="65px" class="logo"></a>
       <style>
