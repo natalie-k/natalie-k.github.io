@@ -59,3 +59,11 @@
   text-align: center;
   color: white;
 }
+.button {
+    padding: 15px;
+    font: 20px "Tahoma";
+    border-radius: 5px;
+    border: 3px solid white;
+    text-decoration: none;
+    color: #FFF;
+}
