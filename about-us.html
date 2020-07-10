@@ -33,51 +33,15 @@
     </div>
     <div style="flex: 1;" align="center"><div class="logoMove" style="filter: drop-shadow(14px 10px 5px #4444dd55);width:210px;height:300px;"></div></div>
   </div>
-  <div class="column" style="background-color:#ACC;padding-top:15px;">
+  <div class="column" style="background-color:#222;padding-top:15px;color:#FFF">
     <center>
       <h3>Our Goals</h3>
-      <div class="horizontal" style="align-items:center;background-color:#FFF9;margin:2%;">
-        <div style="flex:1;" onclick='changeTo3()' id="lArrow"><div class="arrow" style="transform:rotate(135deg);"></div></div>
-        <div style="flex:8;padding:20px;">
-          <div id="goal" style="transition: 0.5s">
-            <h4>Goal 1: Affordable Housing</h4>
-            <p>
-            Hawaii is well-known for having the highest living costs in the U.S., and because of this, many of the residents struggle to afford housing.<br/><br/>
-            Our business aims to fundraise enough to purchase Hawaiian land and create a niche housing design that not only blends with the land but is also relatively affordable.
-            </p> 
-          </div>
-        </div>
-        <div style="flex:1;" onclick='changeTo2()' id="rArrow"><div class="arrow" style="transform:rotate(-45deg);"></div></div>
+      <div class="horizontal" style="margin-top:15px">
+        <a href="about-us/goal1"><div class="goal"></div></a>
+        <a href="about-us/goal2"><div class="goal"></div><a/>
+        <a href="about-us/goal3"><div class="goal"></div><a/>
       </div>
     </center>
   </div>
   <div id="navbarelement"></div>
-  <script>
-    var goal1 = "<h4>Goal 1: Affordable Housing</h4>" 
-            + "<p>Hawaii is well-known for having the highest living costs in the U.S., and because of this, many of the residents struggle to afford housing.<br><br>"
-            + "Our business aims to fundraise enough to purchase Hawaiian land and create a niche housing design that not only blends with the land but is also relatively affordable.</p>"
-    var goal2 = "<h4>Goal 2: Sustainability </h4>"
-            + "<small>(of small businesses and entrepreneurs in Hawaii)</small>"
-            + "<p>We’re hoping to address small businesses and entrepreneurs who are helping Hawaii’s economy and have the difficult task of making ends meet at home and running a business.<br/><br/>"
-            +  "As we support and partner with these businesses, we can treat housing as a temporary incubator for them. As they become profitable, they can give back through donations or other help to support other entrepreneurs and business owners. After gaining sustainable momentum, we can start a program for successful small businesses to sponsor families needing affordable housing. And when that works out we can consider tackling general low income housing and possibly homeless. The key is to get some sustainable traction first with small businesses who help drive the Hawai’i economy.</p>"
-    var goal3 = "<h4>Goal 3: Modernization of Pidgin</h4>"
-            +"<p>Pidgin is deeply rooted in Hawaiian history. It emerged in Hawaii’s sugar cane plantations in the mid to late 1800s. It’s said that it started as a way for plantation workers to communicate with each other because of their diverse languages (including Hawaiian, Japanese, Cantonese, Portuguese, and English). <br/><br/>"
-            + "We’re creating HIbridgin as a modern form of Pidgin. HIbridgin will be a mix of Pidgin, English, and other forms of communication used today, such as emojis and abbreviations.<br/><br/>"
-            + "We hope to encourage people to learn more about Pidgin and it’s rich and controversial history by including Pidgin and HIbridgin taglines on our merchandise.</p>"
-    function changeTo1() {
-      document.getElementById('rArrow').onclick = changeTo2;
-      document.getElementById('lArrow').onclick = changeTo3;
-      document.getElementById('goal').innerHTML = goal1;
-    }
-    function changeTo2() {
-      document.getElementById('rArrow').onclick = changeTo3;
-      document.getElementById('lArrow').onclick = changeTo1;
-      document.getElementById('goal').innerHTML = goal2;
-    }
-    function changeTo3() {
-      document.getElementById('rArrow').onclick = changeTo1;
-      document.getElementById('lArrow').onclick = changeTo2;
-      document.getElementById('goal').innerHTML = goal3;
-    }      
-  </script>
 </html>
