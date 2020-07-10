@@ -4,20 +4,20 @@
 }
 @media only screen and (min-width: 401px) and (max-width: 500px) {
   .goalTitle {
-    font: 112px 'Caveat', cursive;
-    line-height: 140px;
+    font: 80px 'Caveat', cursive;
+    line-height: 80px;
   }
 }
 @media only screen and (min-width: 501px) {
   .goalTitle {
-    font: 144px 'Caveat', cursive;
-    line-height: 180px;
+    font: 120px 'Caveat', cursive;
+    line-height: 120px;
   }
 }
 @media only screen and (max-width: 400px), (max-height: 400px) {
   .goalTitle {
-    font: 80px 'Caveat', cursive;
-    line-height: 100px;
+    font: 40px 'Caveat', cursive;
+    line-height: 40px;
   }
 }
 .titleBar1 {
@@ -42,7 +42,5 @@
   transform: translateY(-50%);
   -ms transform: translateY(-50%);
   text-align: center;
-}
-h3 {
   color: white;
 }
