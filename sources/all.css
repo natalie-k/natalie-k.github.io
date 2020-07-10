@@ -65,6 +65,11 @@ small {
     transform: translateY(-30px) rotate(45deg);
   }
 }
-.logoMove:hover {
-  content: url(logo.gif);
+div.logoMove:hover {
+  background: url(logo.gif);
+  background-size:cover;
+}
+div.logoMove {
+  background: url(logo.png);
+  background-size:cover;
 }
