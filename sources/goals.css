@@ -14,12 +14,16 @@
 }
 @media only screen and (min-width: 761px) {
   .goalTitle {
+    font: 120px 'Caveat', cursive;
+    line-height: 90px;
+  }
+  .goalTitleS {
     font: 100px 'Caveat', cursive;
     line-height: 70px;
   }
 }
 @media only screen and (max-width: 400px), (max-height: 400px) {
-  .goalTitle {
+  .goalTitleS, .goalTitle {
     font: 50px 'Caveat', cursive;
     line-height: 50px;
   }
@@ -54,7 +58,7 @@
   background: linear-gradient(0.25turn, #529, #038);
   height: 50vh; 
 }
-.goalTitle {
+.goalTitleS, .goalTitle {
   position: absolute;
   width: 100%;
   top: 25%;
