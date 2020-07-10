@@ -1,17 +1,17 @@
 @media only screen and (min-width: 401px) and (max-width: 500px) {
-  h4 {
+  .goalTitle {
     font: 112px 'Caveat', cursive;
     line-height: 140px;
   }
 }
 @media only screen and (min-width: 501px) {
-  h4 {
+  .goalTitle {
     font: 144px 'Caveat', cursive;
     line-height: 180px;
   }
 }
 @media only screen and (max-width: 400px), (max-height: 400px) {
-  h4 {
+  .goalTitle {
     font: 80px 'Caveat', cursive;
     line-height: 100px;
   }
