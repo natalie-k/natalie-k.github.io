@@ -81,6 +81,8 @@
 }
 .goal1, .goal2, .goal3 {
   color: white;
+  text-decoration: none;
+  font: 16px "Tahoma";
 }
 .goal1:hover, .goal2:hover, .goal3:hover {
   filter: brightness(80%);
