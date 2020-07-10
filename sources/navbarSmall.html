@@ -7,7 +7,7 @@
         </div>
         <a id="h" href="..">Home</a>
         <a id="s" href="shop">Shop</a>
-        <a id="a" class="about-us">About Us</a>
+        <a id="a" href="about-us">About Us</a>
     </div>
     <style>
       .bar {
@@ -65,9 +65,7 @@
             menuBar.style.color = "white";
         }else if(s.href === window.location.href){
             s.style.color = "white";
-        }else if("about-us/goal" == window.location.href.slice(-14, window.location.href.length-1)){
-            menuBar.style.color = "white";
-         }
+        }
         function openNav() {
             navbar.style.width = "100%";
         }
@@ -81,9 +79,6 @@
             if (h.href === window.location.href||a.href === window.location.href) {
               var scroll = document.getElementById("scroll");
               scroll.style.opacity="1"
-            }
-            if(h.href !== window.location.href && "about-us/goal" != window.location.href.slice(-14, window.location.href.length-1)){
-                menuBar.style.color = "#000"
             }
           }
           else {
