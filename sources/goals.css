@@ -55,12 +55,12 @@
 .titleBar1 {
   position: relative;
   background: linear-gradient(0.25turn, #080, #038);
-  height: 50vh; 
+  height: 60vh; 
 }
 .titleBar2 {
   position: relative;
   background: linear-gradient(0.25turn, #5AB, #038);
-  height: 50vh; 
+  height: 60vh; 
 }
 .titleBar3 {
   position: relative;
