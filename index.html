@@ -25,10 +25,7 @@
       <small>Scroll Down</small>
     </div>
     <div class="text">
-      <div onmouseover="hovered()" onmouseout="left()" style="display: inline-block;">
-        <img id="static" src="sources/logo.png" style="max-height: 70vh; max-width: 100%;">
-        <img style="opacity: 0; max-height: 70vh; max-width: 100%;" id="active" src="sources/logo.gif">
-      </div>
+      <img src="sources/logo.png" style="display: inline-block;max-height: 70vh; max-width: 100%;" class="logoMove">
     </div>
     <div style="position:absolute; top: 50%; transform: translateY(-50%); width:100%" onmouseover="hovered()" onmouseout="left()">
       <h1>Choke Change</h1>
@@ -42,16 +39,4 @@
       </p>
   </center>
   <div id="navbarelement"></div>
-<script>
-  var active=document.getElementById("active");
-  var static=document.getElementById("static");
-  function hovered() {
-    active.style.opacity = 1;
-    static.style.opacity = 0;
-  }
-  function left() {
-    active.style.opacity = 0;
-    static.style.opacity = 1;
-  }
-</script>
 </html>
