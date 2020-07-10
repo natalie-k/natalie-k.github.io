@@ -20,6 +20,21 @@
     line-height: 50px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .explanation {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 450px) {
+  .explanation {
+    padding: 50px;
+  }
+}
+@media only screen and (min-width: 451px) {
+  .explanation {
+    padding: 80px;
+  }
+}
 .titleBar1 {
   position: relative;
   background: linear-gradient(0.25turn, #080, #038);
