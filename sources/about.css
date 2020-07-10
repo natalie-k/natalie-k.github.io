@@ -64,3 +64,7 @@
 .row {
   align-items: center;
 }
+h4 {
+  font: bold 18px "Tahoma";
+  color: #077;
+}
