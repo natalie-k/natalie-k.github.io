@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px), (max-height: 400px) {
   h1 {
     font: 100px 'Caveat', cursive;
     line-height: 100px;
