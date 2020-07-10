@@ -5,7 +5,7 @@
 @media (min-aspect-ratio: 10/9) {
   .cover {
     position: relative;
-    background-image: url("background.png");
+    background-image: url("background.jpg");
     background-attachment: fixed;
     height: 100vh; 
     background-position: center;
@@ -18,7 +18,7 @@
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 10/9) {
   .cover {
     position: relative;
-    background-image: url("backgroundS.png");
+    background-image: url("backgroundS.jpg");
     background-attachment: fixed;
     height: 100vh; 
     background-position: center;
@@ -31,7 +31,7 @@
 @media (max-aspect-ratio: 3/4) {
   .cover {
     position: relative;
-    background-image: url("backgroundXS.png");
+    background-image: url("backgroundXS.jpg");
     background-attachment: fixed;
     height: 100vh; 
     background-position: center;
