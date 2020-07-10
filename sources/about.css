@@ -53,7 +53,7 @@
       padding-right:80px;
   }
 }
-.description {
+.column {
   flex-direction: column;
 }
 .row {
