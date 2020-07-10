@@ -76,7 +76,7 @@
         function myFunction(){
           if(window.scrollY<5){
             menuBar.style.background = "#0000"
-            if (h.href === window.location.href) {
+            if (h.href === window.location.href||a.href === window.location.href) {
               var scroll = document.getElementById("scroll");
               scroll.style.color="#FFF"
             }
@@ -87,7 +87,7 @@
           else {
             menuBar.style.background = "#000";
             menuBar.style.color = "#FFF";
-           if (h.href === window.location.href) {
+           if (h.href === window.location.href||a.href === window.location.href) {
               var scroll = document.getElementById("scroll");
               scroll.style.color="#0000"
             }
