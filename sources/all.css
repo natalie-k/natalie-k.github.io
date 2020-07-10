@@ -1,10 +1,10 @@
-@media only screen and (min-width: 401px) and (max-width: 500px) and not (max-height:400px) {
+@media only screen and (min-width: 401px) and (max-width: 500px) {
   h1 {
     font: 140px 'Caveat', cursive;
     line-height: 140px;
   }
 }
-@media only screen and (min-width: 501px) and not (max-height:400px) {
+@media only screen and (min-width: 501px) {
   h1 {
     font: 180px 'Caveat', cursive;
     line-height: 180px;
