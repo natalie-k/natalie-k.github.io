@@ -64,7 +64,3 @@
 .row {
   align-items: center;
 }
-#one, #two, #three {
-  position: absolute;
-  max-width: 80%;
-}
