@@ -88,3 +88,14 @@
   display: flex;
   margin-top: 2%;
 }
+.back {
+  position:absolute;
+  bottom:40%;
+  margin:15px;
+  font: 16px "Tahoma";
+  text-decoration:none;
+  color: #FFF;
+}
+.back:hover {
+  color: #228;
+}
