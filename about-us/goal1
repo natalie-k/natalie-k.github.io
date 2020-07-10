@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Goal 1 | Affordable Housing</title>
+    <link rel="stylesheet" href="sources/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Caveat:wght@700">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      if ($(window).width() > 520 && $(window).height() > 520){
+        $("#navbarelement").load("sources/navbarLarge.html");
+      }
+      else{
+        $("#navbarelement").load("sources/navbarSmall.html");
+      }
+    });
+    </script>
+</head>
+<h4>Goal 1: Affordable Housing</h4>
+<p>
+Hawaii is well-known for having the highest living costs in the U.S., and because of this, many of the residents struggle to afford housing.<br><br>
+Our business aims to fundraise enough to purchase Hawaiian land and create a niche housing design that not only blends with the land but is also relatively affordable.
+</p> 
+</html>
