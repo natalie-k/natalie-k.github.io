@@ -65,3 +65,6 @@ small {
     transform: translateY(-30px) rotate(45deg);
   }
 }
+.logoMove:hover {
+  content: url(natalie-k.github.io/sources/logo.gif);
+}
