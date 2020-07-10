@@ -76,23 +76,6 @@
   text-align: center;
   color: white;
 }
-.goal1 {
-  background: linear-gradient(0.25turn, #080, #038);
-}
-.goal2 {
-  background: linear-gradient(0.25turn, #5AB, #038);
-}
-.goal3 {
-  background: linear-gradient(0.25turn, #529, #038);
-}
-.goal1, .goal2, .goal2 {
-  color: white;
-  height: 300px;
-  width: 300px;
-}
-.goal1:hover, .goal2:hover, .goal3:hover {
-  filter: brightness(80%);
-}
 .button {
   padding: 10px;
   font: 18px "Tahoma";
