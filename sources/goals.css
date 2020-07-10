@@ -65,12 +65,12 @@
 .titleBar3 {
   position: relative;
   background: linear-gradient(0.25turn, #529, #038);
-  height: 50vh; 
+  height: 60vh; 
 }
 .goalTitleS, .goalTitle {
   position: absolute;
   width: 100%;
-  top: 25%;
+  top: 30%;
   transform: translateY(-50%);
   -ms transform: translateY(-50%);
   text-align: center;
