@@ -37,9 +37,9 @@
     <center>
       <h3>Our Goals</h3>
       <div class="horizontal" style="align-items:center;background-color:#FFF9;margin:2%;">
-        <div style="flex:1;" onclick='changeTo3()'><div class="arrow" style="transform:rotate(135deg);"></div></div>
+        <div style="flex:1;" onclick='changeTo3()' id="lArrow"><div class="arrow" style="transform:rotate(135deg);"></div></div>
         <div style="flex:8;padding:20px;">
-          <div id="goal" class="goal1" style="transition: 0.5s">
+          <div id="goal" style="transition: 0.5s">
             <h4>Goal 1: Affordable Housing</h4>
             <p>
             Hawaii is well-known for having the highest living costs in the U.S., and because of this, many of the residents struggle to afford housing.<br/><br/>
@@ -47,7 +47,7 @@
             </p> 
           </div>
         </div>
-        <div style="flex:1;" onclick='changeTo2()'><div class="arrow" style="transform:rotate(-45deg);"></div></div>
+        <div style="flex:1;" onclick='changeTo2()' id="rArrow"><div class="arrow" style="transform:rotate(-45deg);"></div></div>
       </div>
     </center>
   </div>
@@ -64,5 +64,20 @@
             +"<p>=Pidgin is deeply rooted in Hawaiian history. It emerged in Hawaii’s sugar cane plantations in the mid to late 1800s. It’s said that it started as a way for plantation workers to communicate with each other because of their diverse languages (including Hawaiian, Japanese, Cantonese, Portuguese, and English). <br/><br/>"
             + "We’re creating HIbridgin as a modern form of Pidgin. HIbridgin will be a mix of Pidgin, English, and other forms of communication used today, such as emojis and abbreviations.<br/><br/>"
             + "We hope to encourage people to learn more about Pidgin and it’s rich and controversial history by including Pidgin and HIbridgin taglines on our merchandise.</p>"
+    function changeTo1() {
+      document.getElementById('rArrow').onclick = changeTo2;
+      document.getElementById('lArrow').onclick = changeTo3;
+      document.getElementById('goal').innerHTML = goal1;
+    }
+    function changeTo2() {
+      document.getElementById('rArrow').onclick = changeTo3;
+      document.getElementById('lArrow').onclick = changeTo1;
+      document.getElementById('goal').innerHTML = goal2;
+    }
+    function changeTo3() {
+      document.getElementById('rArrow').onclick = changeTo1;
+      document.getElementById('lArrow').onclick = changeTo2;
+      document.getElementById('goal').innerHTML = goal3;
+    }      
   </script>
 </html>
