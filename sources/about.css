@@ -43,6 +43,9 @@
     display: flex;
     flex-direction: column;
   }
+  .goal1, .goal2, .goal2 {
+    height: 100vw;
+  }
 }
 @media only screen and (min-width: 801px) {
   .row {
@@ -50,7 +53,10 @@
     flex-direction: row;
   }
   .description {
-      padding-right:80px;
+    padding-right:80px;
+  }
+  .goal1, .goal2, .goal2 {
+    height: 30vw;
   }
 }
 .column {
@@ -75,8 +81,6 @@
 }
 .goal1, .goal2, .goal2 {
   color: white;
-  height: 300px;
-  width: 300px;
 }
 .goal1:hover, .goal2:hover, .goal3:hover {
   filter: brightness(80%);
