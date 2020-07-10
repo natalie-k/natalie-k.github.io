@@ -1,10 +1,10 @@
 <html>
       <div id="navbar" class="notScrolled">
-            <a id="h" href="https://natalie-k.github.io/">Home</a>
-            <a id="s" href="https://natalie-k.github.io/shop">Shop</a>
-            <a id="a" class="margin" href="https://natalie-k.github.io/about-us">About Us</a>
+            <a id="h" href="..">Home</a>
+            <a id="s" href="shop">Shop</a>
+            <a id="a" class="about-us">About Us</a>
       </div>
-      <a href="https://natalie-k.github.io"><img id="logo" src="sources/choke-change-logo.png" alt="" height="65px" class="logo"></a>
+      <a href=".."><img id="logo" src="sources/choke-change-logo.png" alt="" height="65px" class="logo"></a>
       <style>
             #navbar {
               text-align: right;
@@ -79,7 +79,7 @@
                 s.style.color = "white";
           }else if(s.href === window.location.href){
                s.classList.add("active");
-          }else if("https://natalie-k.github.io/about-us/goal" == window.location.href.substring(0, window.location.href.length-1)){
+          }else if("about-us/goal" == window.location.href.slice(-14, window.location.href.length-1)){
                a.style.color = "white";
                h.style.color = "white";
                s.style.color = "white";
