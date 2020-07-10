@@ -1,0 +1,87 @@
+<html>
+      <div id="navbar" class="notScrolled">
+            <a id="h" href="../..">Home</a>
+            <a id="s" href="../shop">Shop</a>
+            <a id="a" class="../about-us">About Us</a>
+      </div>
+      <a href="../.."><img id="logo" src="../sources/choke-change-logo.png" alt="" height="65px" class="logo"></a>
+      <style>
+            #navbar {
+              text-align: right;
+            }
+            .notScrolled {
+              position: absolute;
+              background-color: transparent;
+              top: 5%;
+              transform: translateY(-50%);
+              padding-top: 0px;
+              width: 100%;
+            }
+            .scrolled {
+              position: fixed;
+              background-color: #000; 
+              opacity: 80%;
+              top: 0;
+              padding-top: 20px;
+              padding-bottom: 20px;
+              width: 100%;
+            }
+            #navbar a {
+              padding: 10px;
+              font: 20px "Tahoma";
+              text-decoration: none;
+              color: #FFF;
+            }
+            #navbar a.active {
+              border-bottom: 3px solid;
+            }
+            .notScrolled a {
+              color: #FFF;
+              border-bottom-color: #000;
+            }
+            .scrolled a {
+              color: #FFF;
+              border-bottom-color: #FFF;
+            }
+            .margin {
+              margin-right: 20px;
+            }
+            .logo {
+              position: absolute;
+              top: 5%;
+              left: 20px;
+              transform: translateY(-50%);
+              filter: brightness(180%)
+            }
+            .logoS {
+              position: fixed;
+              top: 0px;
+              left: 20px;
+              filter: brightness(180%)
+            }
+                  
+      </style>
+      <script>
+          window.onscroll = function() {myFunction()};
+          var navbar = document.getElementById("navbar");
+          var logo = document.getElementById("logo");
+          var sticky = navbar.offsetTop;
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.remove("notScrolled");
+              navbar.classList.add("scrolled");
+              logo.classList.remove("logo");
+              logo.classList.add("logoS");
+              if (canScroll) {
+                var scroll = document.getElementById("scroll");
+                scroll.style.opacity="0"
+              }
+            } else {
+              navbar.classList.remove("scrolled");
+              navbar.classList.add("notScrolled");
+              logo.classList.remove("logoS");
+              logo.classList.add("logo");
+            }
+          }
+      </script>
+<html>
