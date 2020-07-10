@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-@media only screen and (min-width: 401px) and (max-width: 720px) {
+@media only screen and (min-width: 401px) and (max-width: 760px) {
   .goalTitle {
     font: 80px 'Caveat', cursive;
     line-height: 80px;
@@ -61,7 +61,7 @@
 }
 .button {
     padding: 10px;
-    font: 16px "Tahoma";
+    font: 18px "Tahoma";
     border-radius: 5px;
     border: 3px solid white;
     text-decoration: none;
