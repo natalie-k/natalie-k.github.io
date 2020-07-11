@@ -45,6 +45,7 @@
   }
   .goal1, .goal2, .goal3 {
     height: 100vw;
+    width: 100vw;
   }
 }
 @media only screen and (min-width: 801px) {
