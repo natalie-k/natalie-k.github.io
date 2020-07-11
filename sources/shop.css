@@ -23,3 +23,7 @@
   text-decoration: none;
   color: #FFF;
 }
+.button:hover {
+  filter: brightness(120%);
+  transform: scale(1.2);
+}
