@@ -49,8 +49,8 @@
 }
 @media only screen and (max-width: 400px) {
   .button {
-  padding: 7px;
-  font: 16px "Tahoma";
+  padding: 10px;
+  font: 20px "Tahoma";
   }
 }
 h1 {
