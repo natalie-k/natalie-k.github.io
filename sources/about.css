@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
   }
-  .goal1, .goal2, .goal3 {
+  .goal {
     height: 100vw;
     width: 100vw;
   }
@@ -56,7 +56,7 @@
   .description {
     padding-right:80px;
   }
-  .goal1, .goal2, .goal3 {
+  .goal {
     height: 30vw;
   }
 }
@@ -71,20 +71,25 @@
 .row {
   align-items: center;
 }
-.goal1 {
+.goalBox1 {
   background: linear-gradient(0.25turn, #080, #038);
 }
-.goal2 {
+.goalBox2 {
   background: linear-gradient(0.25turn, #5AB, #038);
 }
-.goal3 {
+.goalBox3 {
   background: linear-gradient(0.25turn, #529, #038);
 }
-.goal1, .goal2, .goal3 {
+.goal {
   color: white;
   text-decoration: none;
   font: 16px "Tahoma";
 }
-.goal1:hover, .goal2:hover, .goal3:hover {
+.goalBox1, .goallBox2, .goallBox3 {
+  display:table-cell;
+  vertical-align:middle;
+  
+}
+.goallBox1:hover, .goallBox2:hover, .goallBox3:hover {
   filter: brightness(130%);
 }
