@@ -53,8 +53,11 @@
     display: flex;
     flex-direction: row;
   }
-  .description {
+  .description1 {
     padding-right:80px;
+  }
+  .description2 {
+    padding-left:80px;
   }
   .goal {
     height: 30vw;
