@@ -67,7 +67,7 @@ h2 {
   display: inline-block;
   margin:15px;
   margin-bottom:0px;
-  background-color: #0009;
+  background-color: #0008;
   text-decoration: none;
   color: #FFF;
   border: 2px solid white;
@@ -75,6 +75,6 @@ h2 {
   transition: 0.5s;
 }
 .button:hover {
-  background-color: #ACA;
+  background-color: #ACA8;
   transform: scale(1.1);
 }
