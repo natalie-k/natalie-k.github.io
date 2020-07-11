@@ -82,13 +82,13 @@
 }
 .goal {
   color: white;
-  text-decoration: none;
   font: 16px "Tahoma";
 }
 .goalBox1, .goallBox2, .goallBox3 {
   display:table-cell;
   vertical-align:middle;
-  
+  flex: 1;
+  text-decoration: none;
 }
 .goallBox1:hover, .goallBox2:hover, .goallBox3:hover {
   filter: brightness(130%);
