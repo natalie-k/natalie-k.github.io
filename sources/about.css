@@ -37,6 +37,9 @@
    h3 {
     font: bold 45px "Tahoma";
   }
+  goals {
+    padding: 15px;
+  }
 }
 @media only screen and (max-width: 800px) {
   .row {
@@ -106,5 +109,8 @@
 .button:hover {
   background-color: #0083;
 }
-
-
+goals {
+  padding-top: 15px;
+  padding-bottom:15px;
+  background-color: #333;
+}
