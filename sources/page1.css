@@ -60,6 +60,7 @@ h2 {
   margin-bottom:0px;
   background-color: #070;
   transition: 0.5s;
+  display: inline-block;
 }
 .button:hover {
   filter: brightness(80%);
