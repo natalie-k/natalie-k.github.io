@@ -84,7 +84,7 @@
   color: white;
   font: 16px "Tahoma";
 }
-.goalBox1, .goallBox2, .goallBox3 {
+.goalBox1, .goalBox2, .goalBox3 {
   display:table-cell;
   vertical-align:middle;
   flex: 1;
