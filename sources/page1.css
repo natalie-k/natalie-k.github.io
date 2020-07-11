@@ -41,6 +41,18 @@
     margin: 0;
   }
 }
+@media only screen and (min-width: 400px) {
+  .button {
+  padding: 15px;
+  font: 30px "Tahoma";
+  }
+}
+@media only screen and (max-width: 400px) {
+  .button {
+  padding: 7px;
+  font: 16px "Tahoma";
+  }
+}
 h1 {
   color: white;
   text-shadow: 5px 5px 8px black;
@@ -50,8 +62,6 @@ h2 {
   text-shadow: 2px 2px 5px black;
 }
 .button {
-  padding: 10px;
-  font: 30px "Tahoma";
   border-radius: 10px;
   text-decoration: none;
   color: #FFF;
@@ -60,7 +70,6 @@ h2 {
   background-color: #070;
   transition: 0.5s;
   display: inline-block;
-  width: 350px;
 }
 .button:hover {
   filter: brightness(120%);
