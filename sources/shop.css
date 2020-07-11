@@ -15,6 +15,7 @@
   margin: 0;
 }
 .button {
+  display: inline-block;
   padding: 15px;
   font: 20px "Tahoma";
   background-color: #099;
