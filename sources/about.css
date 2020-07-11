@@ -94,11 +94,14 @@
 }
 .button {
   padding: 10px;
+  font: 16px "Tahoma";
   border-radius: 5px;
-  border: 3px solid white;
+  border: 2px solid white;
   text-decoration: none;
   color: #FFF;
-  margin:15px;
-  margin-bottom:0px;
 }
+.button:hover {
+  background-color: #0083;
+}
+
 
