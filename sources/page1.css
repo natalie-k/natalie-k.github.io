@@ -45,12 +45,14 @@
   .button {
     padding: 15px;
     font: 30px "Tahoma";
+    width: 350px;
   }
 }
 @media only screen and (max-width: 400px) {
   .button {
     padding: 10px;
     font: 20px "Tahoma";
+    width: 250px;
   }
 }
 h1 {
