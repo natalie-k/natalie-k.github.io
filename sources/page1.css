@@ -13,6 +13,7 @@
     background-size: cover;
     padding: 0;
     margin: 0;
+    filter: brightness(160%) contrast(0.8);
   }
 }
 @media (min-aspect-ratio: 3/4) and (max-aspect-ratio: 10/9) {
