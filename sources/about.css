@@ -112,10 +112,10 @@
   background-color: #0083;
 }
 .goals {
-  padding-top: 15px;
+  padding-top: 30px;
   padding-bottom:15px;
-  background-color: #333;
-  color: white;
+  background: linear-gradient(0.5turn, #BBB, #FFF, #FFF, #FFF, #FFF, #FFF);
+  color: black;
 }
 hr {
   margin-left: 3%;
