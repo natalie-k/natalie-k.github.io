@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
 }
-@media only screen and (min-width: 411px) and (max-width: 760px) {
+@media only screen and (min-width: 451px) and (max-width: 760px) {
   .goalTitle {
     font: 80px 'Caveat', cursive;
     line-height: 80px;
@@ -22,7 +22,7 @@
     line-height: 70px;
   }
 }
-@media only screen and (max-width: 410px), (max-height: 410px) {
+@media only screen and (max-width: 450px), (max-height: 410px) {
   .goalTitleS, .goalTitle {
     font: 50px 'Caveat', cursive;
     line-height: 50px;
