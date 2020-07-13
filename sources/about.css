@@ -99,6 +99,7 @@
 }
 .goalBox1:hover, .goalBox2:hover, .goalBox3:hover {
   filter: brightness(130%);
+  transform: scale(1.05);
 }
 .button {
   padding: 10px;
@@ -111,7 +112,6 @@
 }
 .button:hover {
   background-color: #0083;
-  transform: scale(1.1);
 }
 .goals {
   padding-top: 30px;
