@@ -107,9 +107,11 @@
   border: 2px solid white;
   text-decoration: none;
   color: #FFF;
+  transition: 0.5s;
 }
 .button:hover {
   background-color: #0083;
+  transform: scale(1.1);
 }
 .goals {
   padding-top: 30px;
