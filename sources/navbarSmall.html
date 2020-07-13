@@ -75,10 +75,13 @@
         window.onscroll = function(){myFunction()};
         function myFunction(){
           if(window.scrollY<5){
-            menuBar.style.background = "#0000"
+            menuBar.style.background = "#0000";
+            if (h.href != window.location.hreff){
+                menuBar.style.color = #000;
+            }
             if (h.href === window.location.href||a.href === window.location.href) {
               var scroll = document.getElementById("scroll");
-              scroll.style.opacity="1"
+              scroll.style.opacity="1";
             }
           }
           else {
@@ -86,7 +89,7 @@
             menuBar.style.color = "#FFF";
            if (h.href === window.location.href||a.href === window.location.href) {
               var scroll = document.getElementById("scroll");
-              scroll.style.opacity="0"
+              scroll.style.opacity="0";
             }
           } 
         } 
